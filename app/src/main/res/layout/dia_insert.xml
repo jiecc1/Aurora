@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Wave Form"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/rad_wave_form"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Square"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Pulse width"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/et_pulse_width"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:imeOptions="actionDone"
+            android:inputType="number" />
+
+        <RadioGroup
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rad_pulse_width_ms"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="ms"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/rad_pulse_width_s"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="s"
+                android:textSize="15sp" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Frequency"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/et_frequency"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:imeOptions="actionDone"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Hz (≤500Hz)"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Energy"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/et_energy"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:imeOptions="actionDone"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="mW (≤60mW)"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Duration"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/et_duration"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:imeOptions="actionDone"
+            android:inputType="number" />
+
+        <RadioGroup
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rad_duration_ms"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="ms"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/rad_duration_s"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="s"
+                android:textSize="15sp" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Delay"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/et_delay"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:imeOptions="actionDone"
+            android:inputType="number" />
+
+        <RadioGroup
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rad_delay_ms"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="ms"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/rad_delay_s"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="s"
+                android:textSize="15sp" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+</LinearLayout>

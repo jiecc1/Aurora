@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_new"
+        android:title="New" />
+    <item
+        android:id="@+id/item_open"
+        android:title="Open" />
+    <item
+        android:id="@+id/item_save"
+        android:title="Save" />
+    <item
+        android:id="@+id/item_save_as"
+        android:title="Save as" />
+    <item
+        android:id="@+id/item_cancel"
+        android:title="Cancel" />
+</menu>
